@@ -93,3 +93,10 @@ app = Controller.new(routes)
 app.render('/')
 app.render('/greet/')
 app.render('/greet/funny/')
+
+#
+# Expected output
+#
+# Welcome to the Home Page.
+# Hello Kevin, Long. Welcome to the Flatiron-School!
+# Hello Pooh, Bear. Welcome to the 100 acre wood!
